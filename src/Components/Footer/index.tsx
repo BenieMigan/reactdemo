@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import 'boxicons/css/boxicons.min.css';
+import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div className='Footer'>
@@ -36,11 +37,11 @@ function Footer() {
             </div>
             <div className='Footer-e'>
                 <ul>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Living Room</a></li>
-                    <li><a href="">Kitchen</a></li>
-                    <li><a href="">Outdoors</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><Link to ="/aboutus">About Us</Link></li>
+                    <li><Link to ="/livingroom">Living Room</Link></li>
+                    <li><Link to ="/kitchen">Kitchen</Link></li>
+                    <li><Link to ="/outdoors">Outdoors</Link></li>
+                    <li><Link to ="/contact">Contact</Link></li>
                 </ul>
             </div>
         </div>
