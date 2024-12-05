@@ -189,7 +189,7 @@ interface MainProps {
           <input
             type="text"
             placeholder="Search..."
-            className="w-full max-w-md rounded-md border border-gray-300 px-4 py-2 text-sm text-gray-700 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+            className="w-full max-w-md rounded-md border border-gray-300 px-4 py-2 text-sm text-gray-700 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 bg-gray-100"
           />
           <svg
             className="h-8 w-8 text-black ml-2"
