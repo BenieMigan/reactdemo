@@ -1,0 +1,67 @@
+.Footer{
+    background-color: black;
+    color: white;
+    height: 900px;
+    margin-top: 12%;
+
+}
+.Footer p{
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 45px; 
+}
+.Footer li{
+    display: inline;
+}
+.Footer-1{
+    padding-top: 4%;
+    display: flex;
+    font: 1.5em sans-serif; 
+    text-align: center;  
+
+}
+.Footer-a{
+    margin-right: 10%;
+    margin-left: 4%;
+}
+.Footer-b{
+    margin-right: 8%;
+    margin-left: 8%;
+}
+.bx{
+    padding-top: 10%;
+    cursor: pointer;
+    font-size: 80px;
+    color: white;
+}
+.Footer-c{
+    margin-right: 5%;
+    margin-left: 15%;
+}
+.Footer hr{
+    margin-top: 5.2%;
+    border: 2px solid #171717;
+}
+.Footer-2{
+    font: 1.4em sans-serif;
+    padding-top: 2%;
+    display: flex; 
+}
+.Footer-d{
+    margin-left: 4%;
+font: 1.2em sans-serif;
+}
+.Footer-e{
+    padding-left: 30%;
+    font: 1.4em sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.Footer-e a{
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.Footer-e li{
+    padding:15px;
+}
+
