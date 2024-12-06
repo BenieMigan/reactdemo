@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import "./tailwind.css";
+import { Link } from "react-router-dom";
 
 interface MainProps {
   mytitle: string;
@@ -159,17 +160,17 @@ interface MainProps {
       <div className="flex-wrap justify-between space-x-4 md:space-x-8 lg:space-x-96">
         <nav className="isolate inline-flex -space-x-px rounded-md shadow-sm" aria-label="Pagination">
           <a href="#" aria-current="page" className="relative z-10 inline-flex items-center bg-red-600 px-2 py-2 text-xs md:text-sm font-semibold text-white focus:z-20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 ml-0 md:ml-20">1</a>
-          <a href="#" className="relative inline-flex items-center px-2 py-2 text-xs md:text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0">2</a>  
-          <a href="#" className="relative inline-flex items-center px-2 py-2 text-xs md:text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0">3</a>
+          <Link to="/Paginate2" className="relative inline-flex items-center px-2 py-2 text-xs md:text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0">2</Link>  
+          <Link to="/Paginate3" className="relative inline-flex items-center px-2 py-2 text-xs md:text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0">3</Link>
         </nav>
 
         {/* Pagination Next */}
-        <a href="#" className="relative inline-flex items-center rounded-r-md px-2 py-2 text-xs md:text-sm text-red-400 ring-1 ring-inset ring-red-300 hover:bg-red-50 focus:z-20 focus:outline-offset-0">
+         <a href="#" className="relative inline-flex items-center rounded-r-md px-2 py-2 text-xs md:text-sm text-red-400 ring-1 ring-inset ring-red-300 hover:bg-red-50 focus:z-20 focus:outline-offset-0">
         Next
         <svg className="h-4 w-4 ml-1" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
         <path fillRule="evenodd" d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
         </svg>
-        </a>
+        </a> 
       </div>
     </div>
 
