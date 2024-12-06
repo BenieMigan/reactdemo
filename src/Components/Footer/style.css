@@ -1,14 +1,14 @@
 .Footer {
     background-color: black;
     color: white;
-    padding: 20px;
+    padding: 40px;
     margin-top: 18%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .Footer p {
-    line-height: 45px;
-    font-size: 30px;
+    line-height: 50px;
+    font-size: 35px;
 }
 
 .Footer li {
@@ -24,11 +24,11 @@
 
 .Footer-a, .Footer-b, .Footer-c {
     flex: 1;
-    margin: 20px;
+    margin: 30px;
 }
 
 .Footer hr {
-    margin-top: 5.2%;
+    margin-top: 6%;
     border: 2px solid #171717;
 }
 
@@ -37,12 +37,12 @@
     flex-wrap: wrap; 
     justify-content: space-between;
     align-items: center;
-    padding-top: 2%;
+    padding-top: 3%;
 }
 
 .Footer-d, .Footer-e {
     flex: 1;
-    margin: 20px;
+    margin: 30px;
     text-align: center;
 }
 
@@ -58,24 +58,84 @@
     cursor: pointer;
     text-decoration: none;
     color: white;
-    margin: 0 20px;
-    font-size: 30px;
+    margin: 0 30px;
+    font-size: 35px;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .Footer-1, .Footer-2 {
         flex-direction: column;
         align-items: center;
     }
 
     .Footer-a, .Footer-b, .Footer-c, .Footer-d, .Footer-e {
-        margin: 10px 0;
+        margin: 20px 0;
+        width: 100%;
     }
 
     .Footer-e ul {
         flex-direction: column;
+        align-items: center;
     }
-    .Footer-e a { margin: 10px 0; }
-   
+    
+    .Footer-e a {
+        margin: 15px 0;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Footer {
+        padding: 25px;
+    }
+
+    .Footer p {
+        font-size: 22px;
+        line-height: 35px;
+    }
+
+    .Footer-1, .Footer-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Footer-a, .Footer-b, .Footer-c, .Footer-d, .Footer-e {
+        margin: 15px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .Footer-e ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15px;
+    }
+    
+    .Footer-e a {
+        margin: 12px 0;
+        font-size: 28px;
+    }
+
+    .Footer-2 {
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Footer p {
+        font-size: 20px;
+    }
+
+    .Footer-e a {
+        font-size: 25px;
+    }
+
+    .Footer-1, .Footer-2 {
+        text-align: center;
+    }
+
+    .Footer-e ul {
+        flex-direction: column;
+        align-items: center;
+    }
 }
