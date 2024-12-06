@@ -1,4 +1,4 @@
-.Footer {
+.Livingroom  {
     background-color: black;
     color: white;
     padding: 20px;
@@ -6,33 +6,33 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.Footer p {
+.Livingroom p {
     line-height: 45px;
     font-size: 30px;
 }
 
-.Footer li {
+.Livingroom li {
     display: inline;
 }
 
-.Footer-1 {
+.Livingroom-1 {
     display: flex;
     flex-wrap: wrap; 
     justify-content: space-around; 
     text-align: center;
 }
 
-.Footer-a, .Footer-b, .Footer-c {
+.Livingroom-a, .Livingroom-b, .Livingroom-c {
     flex: 1;
     margin: 20px;
 }
 
-.Footer hr {
+.Livingroom  hr {
     margin-top: 5.2%;
     border: 2px solid #171717;
 }
 
-.Footer-2 {
+.Livingroom-2 {
     display: flex;
     flex-wrap: wrap; 
     justify-content: space-between;
@@ -40,13 +40,13 @@
     padding-top: 2%;
 }
 
-.Footer-d, .Footer-e {
+.Livingroom-d, .Livingroom-e {
     flex: 1;
     margin: 20px;
     text-align: center;
 }
 
-.Footer-e ul {
+.Livingroom-e ul {
     display: flex;
     flex-wrap: wrap; 
     justify-content: center;
@@ -54,7 +54,7 @@
     list-style-type: none;
 }
 
-.Footer-e a {
+.Livingroom-e a {
     cursor: pointer;
     text-decoration: none;
     color: white;
@@ -64,18 +64,18 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .Footer-1, .Footer-2 {
+    .Livingroom-1, .Livingroom-2 {
         flex-direction: column;
         align-items: center;
     }
 
-    .Footer-a, .Footer-b, .Footer-c, .Footer-d, .Footer-e {
+    .Livingroom-a, .Livingroom-b, .Livingroom-c, .Livingroom-d, .Livingroom-e {
         margin: 10px 0;
     }
 
-    .Footer-e ul {
+    .Livingroom-e ul {
         flex-direction: column;
     }
-    .Footer-e a { margin: 10px 0; }
+
    
 }
