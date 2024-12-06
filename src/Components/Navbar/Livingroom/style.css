@@ -1,0 +1,81 @@
+.Livingroom  {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 18%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Livingroom p {
+    line-height: 45px;
+    font-size: 30px;
+}
+
+.Livingroom li {
+    display: inline;
+}
+
+.Livingroom-1 {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    text-align: center;
+}
+
+.Livingroom-a, .Livingroom-b, .Livingroom-c {
+    flex: 1;
+    margin: 20px;
+}
+
+.Livingroom  hr {
+    margin-top: 5.2%;
+    border: 2px solid #171717;
+}
+
+.Livingroom-2 {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.Livingroom-d, .Livingroom-e {
+    flex: 1;
+    margin: 20px;
+    text-align: center;
+}
+
+.Livingroom-e ul {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+}
+
+.Livingroom-e a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+    font-size: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .Livingroom-1, .Livingroom-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Livingroom-a, .Livingroom-b, .Livingroom-c, .Livingroom-d, .Livingroom-e {
+        margin: 10px 0;
+    }
+
+    .Livingroom-e ul {
+        flex-direction: column;
+    }
+
+   
+}
