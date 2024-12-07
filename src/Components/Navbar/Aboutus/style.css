@@ -1,56 +1,74 @@
-/* Conteneur global avec image d'arrière-plan */
-.Navbar {
-  background-image: url('https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2017/11/hero02-free-img.jpg'); 
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100vh;
+.navba-2 {
+    text-align: center;
+    margin-top: 30em;
 }
 
-
-.Navbar-1 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 0px;
-  padding: 10px 90px;
-  color: white;
+.navba-2 p {
+    font-size: 4em;
 }
 
-.Navbar-logo img {
-  height: 80px; 
+.navba-2 h1 {
+    font-size: 10em;
 }
 
-.Navbar-links {
-  list-style: none;
-  display: flex;
-  gap: 30px;
-  }
-
-.Navbar-links li a {
-  font-weight: bold;
-  text-decoration: none;
-  color: white;
-  font-size: 35px;
-  transition: color 0.3s ease-in-out;
-  }
-
-.Navbar-header {
-  text-align: center;
-  color: white;
-  margin-top: 40px; 
-  padding: 150px 20px;
+.Body {
+    padding-top: 10%;  
 }
 
+.Body-1 {
+    display: flex;
+    margin-bottom: 10%;
+}
 
+.Body-a {
+    margin-left: 5%;
+}
 
- 
-  
+.Body-b {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.Body-b h1 {
+    padding-top: 8%;
+    font-size: 5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 7%;
+}
+
+.Body-b hr { 
+    border: 0.1px solid red;
+    width: 18%;
+}
+
+.Body-b h4 {
+    padding-top: 3%;
+    font-size: 2.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Body-b p {
+    padding-top: 3%;
+    font-size: 2em;
+}
+
+.Body-c {
+    background-color: rgb(228, 227, 227);
+    display: flex;
+    padding: 150px;
+    justify-content: center;
+    gap: 10em; 
+}
+
+.Body-c img {
+    width: 250px;
+    height: auto;
+}
+
 .Aboutus {
+    padding: 150px;
     background-color: black;
     color: white;
-    padding: 20px;
-    margin-top: 18%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -62,7 +80,14 @@
 .Aboutus li {
     display: inline;
 }
+.Aboutus-a h1 ,.Aboutus-c h1{
+    font-size: 3em;
 
+}
+.bbb{
+    font-size: 3em;
+
+}
 .Aboutus-1 {
     display: flex;
     flex-wrap: wrap; 
@@ -110,11 +135,51 @@
     font-size: 30px;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .Aboutus-1, .Aboutus-2 {
+.Aboutus-b i {
+    font-size: 8em;
+}
+
+@media (max-width: 1024px) {
+    .Body-c {
+        padding: 80px;  
+        gap: 5em;       
+    }
+
+    .Body-c img {
+        width: 200px;   
+    }
+
+    .Body-1 {
         flex-direction: column;
         align-items: center;
+        margin-bottom: 20px;  
+    }
+
+    .Body-a, .Body-b {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .Body-b h1 {
+        font-size: 3em;   
+        padding-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .Body-b h4 {
+        font-size: 2em;   
+    }
+
+    .Body-b p {
+        font-size: 1.5em;  
+    }
+
+    .Aboutus-1 {
+        flex-direction: column;
+    }
+
+    .Aboutus-2 {
+        flex-direction: column;
     }
 
     .Aboutus-a, .Aboutus-b, .Aboutus-c, .Aboutus-d, .Aboutus-e {
@@ -125,5 +190,107 @@
         flex-direction: column;
     }
 
-   
+    .Aboutus-e a {
+        font-size: 24px;  
+        margin: 10px 0;    
+    }
+
+    .Aboutus-b i {
+        font-size: 6em;    
+    }
+
+    .Body-b h1 {
+        font-size: 2.5em;   
+    }
+
+    .Body-b h4 {
+        font-size: 1.8em;   
+    }
+
+    .Body-b p {
+        font-size: 1.2em;   
+    }
+
+    hr {
+        width: 70%;  
+    }
+}
+
+@media (max-width: 768px) {
+    .Body-c {
+        padding: 50px;  
+        gap: 2em;       
+    }
+
+    .Body-c img {
+        width: 150px;   
+    }
+
+    .Body-1 {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .Body-a, .Body-b {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .Body-b h1 {
+        font-size: 2.5em;  
+    }
+
+    .Body-b h4 {
+        font-size: 1.8em;   
+    }
+
+    .Body-b p {
+        font-size: 1.2em;   
+    }
+
+    hr {
+        width: 60%;  
+    }
+
+    .Aboutus-1 {
+        flex-direction: column;
+    }
+
+    .Aboutus-2 {
+        flex-direction: column;
+    }
+
+    .Aboutus-a, .Aboutus-b, .Aboutus-c, .Aboutus-d, .Aboutus-e {
+        margin: 10px 0;
+    }
+
+    .Aboutus-e ul {
+        flex-direction: column;  
+    }
+
+    .Aboutus-e a {
+        font-size: 24px;   
+        margin: 10px 0;    
+    }
+
+    .Aboutus-b i {
+        font-size: 6em;    
+    }
+
+    .Body-b h1 {
+        font-size: 2.5em;   
+    }
+
+    .Body-b h4 {
+        font-size: 1.8em;   
+    }
+
+    .Body-b p {
+        font-size: 1.2em;   
+    }
+
+    hr {
+        width: 50%;  
+    }
 }

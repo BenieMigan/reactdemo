@@ -1,38 +1,92 @@
-.Livingroom  {
-    background-color: black;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navba-container {
+    filter: brightness(40%);
+    opacity: 87;
+    background-image: url('https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2017/11/hero01-free-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
     color: white;
-    padding: 20px;
-    margin-top: 18%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.Livingroom p {
+.navba {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 90px;
+    color: white;
+}
+
+.navba-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navba-links li a {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.navba-1 {
+    text-align: center;
+    margin-top: 40px; 
+    padding: 150px 20px;
+}
+
+.navba-1 h1 {
+    padding-top: 10%;
+    font-size: 10em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.navba-1 p {
+    padding-top: 30px;
+    font-size: 2em;
+    margin: 10px 0 20px;
+}
+
+.Aboutus p {
     line-height: 45px;
     font-size: 30px;
 }
 
-.Livingroom li {
+.Aboutus li {
     display: inline;
 }
 
-.Livingroom-1 {
+.Aboutus-a h1, .Aboutus-c h1 {
+    font-size: 3em;
+}
+
+.bbb {
+    font-size: 3em;
+}
+
+.Aboutus-1 {
     display: flex;
     flex-wrap: wrap; 
     justify-content: space-around; 
     text-align: center;
 }
 
-.Livingroom-a, .Livingroom-b, .Livingroom-c {
+.Aboutus-a, .Aboutus-b, .Aboutus-c {
     flex: 1;
     margin: 20px;
 }
 
-.Livingroom  hr {
+.Aboutus hr {
     margin-top: 5.2%;
     border: 2px solid #171717;
 }
 
-.Livingroom-2 {
+.Aboutus-2 {
     display: flex;
     flex-wrap: wrap; 
     justify-content: space-between;
@@ -40,13 +94,13 @@
     padding-top: 2%;
 }
 
-.Livingroom-d, .Livingroom-e {
+.Aboutus-d, .Aboutus-e {
     flex: 1;
     margin: 20px;
     text-align: center;
 }
 
-.Livingroom-e ul {
+.Aboutus-e ul {
     display: flex;
     flex-wrap: wrap; 
     justify-content: center;
@@ -54,7 +108,7 @@
     list-style-type: none;
 }
 
-.Livingroom-e a {
+.Aboutus-e a {
     cursor: pointer;
     text-decoration: none;
     color: white;
@@ -62,20 +116,75 @@
     font-size: 30px;
 }
 
-/* Responsive Design */
+.Aboutus-b i {
+    font-size: 8em;
+}
+
+@media (max-width: 1024px) {
+    .navbar {
+        padding: 10px 50px;
+    }
+
+    .main-header h1 {
+        font-size: 60px;
+    }
+
+    .main-header p {
+        font-size: 16px;
+    }
+}
+
 @media (max-width: 768px) {
-    .Livingroom-1, .Livingroom-2 {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar-logo {
+        margin-bottom: 20px;
+    }
+
+    .navbar-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .main-header h1 {
+        font-size: 40px;
+    }
+
+    .main-header p {
+        font-size: 14px;
+    }
+
+    .Aboutus-1, .Aboutus-2 {
         flex-direction: column;
         align-items: center;
     }
 
-    .Livingroom-a, .Livingroom-b, .Livingroom-c, .Livingroom-d, .Livingroom-e {
+    .Aboutus-a, .Aboutus-b, .Aboutus-c, .Aboutus-d, .Aboutus-e {
         margin: 10px 0;
     }
 
-    .Livingroom-e ul {
+    .Aboutus-e ul {
         flex-direction: column;
     }
+}
 
-   
+@media (max-width: 480px) {
+    .navbar {
+        padding: 10px 20px;
+    }
+
+    .main-header {
+        padding: 100px 10px;
+    }
+
+    .main-header h1 {
+        font-size: 28px;
+    }
+
+    .main-header p {
+        font-size: 12px;
+    }
 }
