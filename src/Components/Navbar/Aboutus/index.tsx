@@ -3,7 +3,7 @@ import './style.css';
 import { Link } from 'react-router-dom';
 
 function Aboutus() {
-  return (
+return (
     <div>
         <div className="navba-container">
         <nav className="navba">
@@ -91,7 +91,7 @@ function Aboutus() {
         </div>
     </div>
     </div>
-  );
+);
 }
 
 export default Aboutus;
