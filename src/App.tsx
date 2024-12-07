@@ -1,4 +1,4 @@
-import { Route,BrowserRouter as Router, Routes } from 'react-router-dom';
+import { createBrowserRouter, Route,BrowserRouter as Router, Routes } from 'react-router-dom';
 import Aboutus from './Components/Navbar/Aboutus';
 import Contact from './Components/Navbar/Contact';
 import Kitchen from './Components/Navbar/Kitchen';
@@ -22,5 +22,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;

@@ -3,7 +3,7 @@ import './style.css';
 import { Link } from 'react-router-dom';
 
 function Aboutus() {
-  return (
+return (
     <div>
         <div className="Navbar">
             <nav className="Navbar-1">
@@ -75,7 +75,7 @@ function Aboutus() {
         </div>
     </div>
     </div>
-  );
+);
 }
 
 export default Aboutus;

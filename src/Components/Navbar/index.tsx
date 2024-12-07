@@ -3,6 +3,7 @@ import React from 'react';
 import './style.css';
 import Body from '../Body';
 import Footer from '../Footer';
+import { Link } from 'react-router-dom';
 
 
 const Navbar: React.FC = () => {
@@ -20,11 +21,11 @@ const Navbar: React.FC = () => {
         </div>
         
         <ul className="navbar-links">
-          <li><a href="#about-us">About Us</a></li>
-          <li><a href="#living-room">Living Room</a></li>
-          <li><a href="#kitchen">Kitchen</a></li>
-          <li><a href="#outdoors">Outdoors</a></li>
-          <li><a href="#contact">Contact</a></li>
+        <li><Link to ="/aboutus">About Us</Link></li>
+                    <li><Link to ="/livingroom">Living Room</Link></li>
+                    <li><Link to ="/kitchen">Kitchen</Link></li>
+                    <li><Link to ="/outdoors">Outdoors</Link></li>
+                    <li><Link to ="/contact">Contact</Link></li>
         </ul>
       </nav>
 
