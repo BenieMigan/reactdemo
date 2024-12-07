@@ -52,26 +52,26 @@ function Aboutus() {
         <div className='Aboutus-1'>
             <div className='Aboutus-a'>
                 <h1>ABOUT</h1>
-                <p>Nulla quis lorem ut libero malesuada feugiat. <br /> Praesent sapien massa, convallis a pellentesque nec, <br /> egestas non nisi. Pellentesque in ipsum id orci porta <br /> dapibus. Sed porttitor lectus nibh.</p>
+                Nulla quis lorem ut libero malesuada feugiat. <br /> Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Pellentesque in ipsum id orci porta <br /> dapibus. Sed porttitor lectus nibh.
             </div>
             <div className='Aboutus-b'>
                 <h1 className='bbb'>SOCIAL</h1>
                 <div>
-                    <a href=""><i className='bx bxl-facebook-square'></i></a>
+                    <div className='logo'><a href=""><i className='bx bxl-facebook-square'></i></a>
                     <a href=""><i className='bx bxl-twitter'></i></a>
                     <a href=""><i className='bx bxl-instagram'></i></a>
-                    <a href=""><i className='bx bxl-pinterest'></i></a>
+                    <a href=""><i className='bx bxl-pinterest'></i></a></div>
                 </div>
             </div>
             <div className='Aboutus-c'>
                 <h1>CONTACT US</h1>
-                <p>500 Terry Francois St. <br />
+                500 Terry Francois St. <br />
                     San Francisco,<br />
                     CA 94158<br />
                     +1-410-555-0134 |<br />
                     info@example.com<br />
                     contact@example.com
-                </p>
+                
             </div>
         </div>
         <hr />

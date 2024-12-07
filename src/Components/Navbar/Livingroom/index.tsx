@@ -361,7 +361,7 @@ const Livingroom: React.FC<MainProps> = ({mytitle,title,image, description,mytit
         <div className='Aboutus-1'>
             <div className='Aboutus-a'>
                 <h1>ABOUT</h1>
-                <p>Nulla quis lorem ut libero malesuada feugiat. <br /> Praesent sapien massa, convallis a pellentesque nec, <br /> egestas non nisi. Pellentesque in ipsum id orci porta <br /> dapibus. Sed porttitor lectus nibh.</p>
+                Nulla quis lorem ut libero malesuada feugiat. <br /> Praesent sapien massa, convallis a pellentesque nec, <br /> egestas non nisi. Pellentesque in ipsum id orci porta <br /> dapibus. Sed porttitor lectus nibh.
             </div>
             <div className='Aboutus-b'>
                 <h1 className='bbb'>SOCIAL</h1>
@@ -374,13 +374,13 @@ const Livingroom: React.FC<MainProps> = ({mytitle,title,image, description,mytit
             </div>
             <div className='Aboutus-c'>
                 <h1>CONTACT US</h1>
-                <p>500 Terry Francois St. <br />
+                500 Terry Francois St. <br />
                     San Francisco,<br />
                     CA 94158<br />
                     +1-410-555-0134 |<br />
                     info@example.com<br />
                     contact@example.com
-                </p>
+                
             </div>
         </div>
         <hr />

@@ -1,6 +1,6 @@
 .navba-2 {
     text-align: center;
-    margin-top: 30em;
+    margin-top: 10em;
 }
 
 .navba-2 p {
@@ -293,4 +293,9 @@
     hr {
         width: 50%;  
     }
+    .logo {
+        width: 20px; /* Réduit la largeur */
+        height: 20px; /* Garde les proportions */
+      }
+      
 }
